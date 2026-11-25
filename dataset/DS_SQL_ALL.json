@@ -1,0 +1,13 @@
+{
+	"name": "DS_SQL_ALL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_ALL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

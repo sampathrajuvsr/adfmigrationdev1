@@ -1,0 +1,24 @@
+{
+	"name": "EVENT_CSV_MANUAL_PARQUET",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_EVENT_MANUAL_FILES",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/eventinput/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/79207f28-8118-4692-bcb7-68f45c8aaa76/resourceGroups/rgdevcheronproject/providers/Microsoft.Storage/storageAccounts/adlsdevsource214",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

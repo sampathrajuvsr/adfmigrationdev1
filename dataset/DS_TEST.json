@@ -1,0 +1,19 @@
+{
+	"name": "DS_TEST",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_TEST",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "industry_sic1.xlsx",
+				"fileSystem": "test"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

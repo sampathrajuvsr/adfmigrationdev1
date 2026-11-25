@@ -1,0 +1,12 @@
+{
+	"name": "LS_CSV_BULKDATA",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adlsdevcsvtrigger2.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEMyMDM3NUFFLUMwMzEtNDEwMi1CNEYwLTJEMUUzOTI1NDI3Rl85ZDFkYTZlZS0wM2IyLTQ3N2YtOTZlZS0yYjk3NzZlM2M2MzgiDQp9"
+		}
+	}
+}
