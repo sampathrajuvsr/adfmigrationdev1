@@ -1,0 +1,231 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevcheron"
+		},
+		"DS_SINK_MULTIPLE_Parquet_accountKey": {
+			"value": ""
+		},
+		"DS_SQL_SERVER_WATERMARK_password": {
+			"value": ""
+		},
+		"DS_SqlTable_Parquet1_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_BULKDATA_accountKey": {
+			"value": ""
+		},
+		"LS_DelimitedText_sink_accountKey": {
+			"value": ""
+		},
+		"LS_EVENT_accountKey": {
+			"value": ""
+		},
+		"LS_EVENT_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_EVENT_SINK_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_JSON_SINK_accountKey": {
+			"value": ""
+		},
+		"LS_LOOKUP_MAX_VALUE_password": {
+			"value": ""
+		},
+		"LS_MANUALFILE_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_PARQUET_SINK_accountKey": {
+			"value": ""
+		},
+		"LS_REST_PARQUET_SINK_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_EXCEL_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_MULTIPLE_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SP_SQL_password": {
+			"value": ""
+		},
+		"LS_SP_SQL_onprem_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_ADVENTURE_password": {
+			"value": ""
+		},
+		"LS_SQL_ADLS_SINK_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_ALL_password": {
+			"value": ""
+		},
+		"LS_SQL_SERVER_password": {
+			"value": ""
+		},
+		"LS_SRC_SQL_password": {
+			"value": ""
+		},
+		"LS_TEST_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"DS_SINK_MULTIPLE_Parquet_properties_typeProperties_url": {
+			"value": "https://adlsdevsink214.dfs.core.windows.net/"
+		},
+		"DS_SQL_SERVER_WATERMARK_properties_typeProperties_server": {
+			"value": "DESKTOP-2SKHH8D"
+		},
+		"DS_SQL_SERVER_WATERMARK_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"DS_SQL_SERVER_WATERMARK_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"DS_SqlTable_Parquet1_properties_typeProperties_url": {
+			"value": "https://adlsdevsink214.dfs.core.windows.net/"
+		},
+		"LS_CSV_BULKDATA_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvtrigger2.dfs.core.windows.net/"
+		},
+		"LS_DelimitedText_sink_properties_typeProperties_url": {
+			"value": "https://adlsdevsink214.dfs.core.windows.net/"
+		},
+		"LS_EVENT_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvtrigger2.dfs.core.windows.net/"
+		},
+		"LS_EVENT_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource214.dfs.core.windows.net/"
+		},
+		"LS_EVENT_SINK_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsink214.dfs.core.windows.net/"
+		},
+		"LS_JSON_SINK_properties_typeProperties_url": {
+			"value": "https://adlsdevsink214.dfs.core.windows.net/"
+		},
+		"LS_LOOKUP_MAX_VALUE_properties_typeProperties_server": {
+			"value": "DESKTOP-2SKHH8D"
+		},
+		"LS_LOOKUP_MAX_VALUE_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_LOOKUP_MAX_VALUE_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_MANUALFILE_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvoutptrigger.dfs.core.windows.net/"
+		},
+		"LS_PARQUET_SINK_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvoutptrigger.dfs.core.windows.net/"
+		},
+		"LS_REST_PARQUET_SINK_properties_typeProperties_url": {
+			"value": "https://adlsdevsink214.dfs.core.windows.net/"
+		},
+		"LS_RestAPI_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"LS_SINK_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevcheron.dfs.core.windows.net/"
+		},
+		"LS_SINK_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsink214.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource214.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_EXCEL_properties_typeProperties_url": {
+			"value": "https://adlsdevsourceexcel214.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_MULTIPLE_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource214.dfs.core.windows.net/"
+		},
+		"LS_SP_SQL_properties_typeProperties_server": {
+			"value": "DESKTOP-2SKHH8D"
+		},
+		"LS_SP_SQL_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2025"
+		},
+		"LS_SP_SQL_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SP_SQL_onprem_properties_typeProperties_server": {
+			"value": "DESKTOP-2SKHH8D"
+		},
+		"LS_SP_SQL_onprem_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SP_SQL_onprem_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQLSERVER_ADVENTURE_properties_typeProperties_server": {
+			"value": "DESKTOP-2SKHH8D"
+		},
+		"LS_SQLSERVER_ADVENTURE_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2025"
+		},
+		"LS_SQLSERVER_ADVENTURE_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_ADLS_SINK_properties_typeProperties_url": {
+			"value": "https://adlsdevsink214.dfs.core.windows.net/"
+		},
+		"LS_SQL_ALL_properties_typeProperties_server": {
+			"value": "DESKTOP-2SKHH8D"
+		},
+		"LS_SQL_ALL_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2025"
+		},
+		"LS_SQL_ALL_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_server": {
+			"value": "DESKTOP-2SKHH8D"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2025"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SRC_SQL_properties_typeProperties_server": {
+			"value": "Visionboard"
+		},
+		"LS_SRC_SQL_properties_typeProperties_database": {
+			"value": "vb"
+		},
+		"LS_SRC_SQL_properties_typeProperties_userName": {
+			"value": "sampath"
+		},
+		"LS_TEST_properties_typeProperties_url": {
+			"value": "https://adlsdevsink214.dfs.core.windows.net/"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "DESKTOP-2SKHH8D"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2025"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"EVENT_CSV_MANUAL_PARQUET_properties_typeProperties_scope": {
+			"value": "/subscriptions/79207f28-8118-4692-bcb7-68f45c8aaa76/resourceGroups/rgdevcheronproject/providers/Microsoft.Storage/storageAccounts/adlsdevsource214"
+		}
+	}
+}
